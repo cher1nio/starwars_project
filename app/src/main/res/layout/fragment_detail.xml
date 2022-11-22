@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".presentation.screens.detail_screen.DetailFragment">
+
+    <!--    No source for images in api
+    <ImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="3"-->
+    <!--        android:contentDescription="@string/character_face"-->
+    <!--        android:src="@mipmap/ic_launcher" />-->
+
+    <TextView
+        android:id="@+id/tv_change_favorite"
+        style="@style/LinearLayoutTextViewStyle"
+        android:layout_weight="1"
+        android:text="@string/add_to_favorite"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/tv_full_name"
+        style="@style/LinearLayoutTextViewStyle"
+        android:text="@string/full_name" />
+
+    <TextView
+        android:id="@+id/tv_height"
+        style="@style/LinearLayoutTextViewStyle"
+        android:text="@string/height" />
+
+    <TextView
+        android:id="@+id/tv_mass"
+        style="@style/LinearLayoutTextViewStyle"
+        android:text="@string/mass" />
+
+    <TextView
+        android:id="@+id/tv_hair_color"
+        style="@style/LinearLayoutTextViewStyle"
+        android:text="@string/hair_color" />
+
+    <TextView
+        android:id="@+id/tv_eye_color"
+        style="@style/LinearLayoutTextViewStyle"
+        android:text="@string/eye_color" />
+
+    <TextView
+        android:id="@+id/tv_birth_year"
+        style="@style/LinearLayoutTextViewStyle"
+        android:text="@string/birth_year" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        style="@style/LinearLayoutTextViewStyle"
+        android:text="@string/gender" />
+
+</LinearLayout>
